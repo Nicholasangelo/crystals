@@ -1,0 +1,87 @@
+header {
+    text-align: center;
+    font-family: 'barrio';
+    border: solid 3px;
+    background-color: cornsilk;
+    display: inline-block;
+    position: sticky;
+    left: 23%;
+}
+#startButton {
+    width: 12em;
+    height: 3em;
+    font-family: 'barrio';
+}
+#startButton:hover {
+    background-color: salmon;
+}
+h2 {
+    font-weight: 100;
+    font-family: 'barrio';
+}
+#section {
+    border: solid 3px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: cornsilk;
+    font-family: 'barrio';
+    /* visibility: hidden; */
+}
+.tacoButton {
+    width: 200px;
+    height: 200px;
+}
+.tacoButton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+body {
+    background-image: url("../../images/tacoBac.png");
+}
+#wins {
+    padding-top: 18px;
+    font-family: 'barrio';
+}
+#losses {
+    padding-top: 18px;
+    font-family: 'barrio';
+}
+#tacoOne {
+    background-image: url("../../images/softTaco.jpg");
+    background-size: cover;
+}
+#tacoTwo {
+    background-image: url("../../images/hardTaco.jpg");
+    background-size: cover;
+}
+#tacoThree {
+    background-image: url("../../images/grilledTaco.jpg");
+    background-size: cover;
+}
+#tacoFour {
+    background-image: url("../../images/bowlTaco.jpg");
+    background-size: cover;
+}
+
+#decor {
+    width: 200px;
+    height: 200px;
+    border: solid 3px;
+    border-radius: 100px;
+    background-color: cornsilk;
+    position: relative;
+    float: right;
+    right: 20%;
+    top: 10px;
+
+    
+}
+
+p {
+    position: absolute;
+    top: -4%;
+    font-family: "barrio";
+    right: 20%;
+    font-size: 2.6em;
+    text-shadow: 2px 2px 4px darkseagreen;
+}
