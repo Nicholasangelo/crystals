@@ -73,7 +73,7 @@ function startGame() {
 
     //click functions for each taco / and write to html
     $("#tacoOne").click(function () {
-        $("#decor").show.html("Soft Taco!");
+        // $("#decor").show.html("Soft Taco!");
         fullness = fullness + softTummyFill;
         $("#tummyFullness").html("Tummy Fullness: " + fullness);
         if (fullness === hungerLevel) {
